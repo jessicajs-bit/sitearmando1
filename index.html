@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>I9 Tek Informática</title>
+    <link rel="stylesheet" href="estilo-style.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <img src="imagem/logotipo.jpg" alt="logotipo" class="logo1" />
+      <h1>I9 Tek</h1>
+      <p>Informática</p>
+      <button class="menu-btn" onclick="toggleMenu()">☰</button>
+      <nav>
+        <ul id="menu">
+          <li><a href="#">Início</a></li>
+          <li><a href="#produtos">Produtos</a></li>
+          <li><a href="#contato">Contato</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <div class="slider">
+      <div class="slides">
+        <img src="imagem/img-notbooks.jpg" alt="Banner 1" />
+        <img src="imagem/img2.jpg" alt="Banner 2" />
+        <img src="imagem/img3.webp" alt="Banner 3" />
+        <img src="imagem/banner1.avif" alt="Banner 4" />
+      </div>
+    </div>
+
+    <section class="produtos" id="produtos">
+      <h2>Produtos em Destaque</h2>
+      <div class="produto-grid">
+        <div class="produto">
+          <img src="imagem/img-comp.jpg" alt="Notebook Dell" />
+          <h3>Notebook Dell i5</h3>
+          <p>R$ 3.499,00</p>
+          <a class="botao-comprar" href="imagem" target="_blank">Comprar</a>
+        </div>
+        <div class="produto">
+          <img src="imagem/imag-comp2.jpg" alt="Notebook Lenovo" />
+          <h3>Notebook Lenovo i7</h3>
+          <p>R$ 4.799,00</p>
+          <a
+            class="botao-comprar"
+            href="https://wa.me/5599999999999?text=Olá%2C%20tenho%20interesse%20no%20Notebook%20Lenovo%20i7"
+            target="_blank"
+            >Comprar</a
+          >
+        </div>
+        <div class="produto">
+          <img src="imagem/img-iphone.jpg" alt="iPhone" />
+          <h3>......</h3>
+          <p>R$ .......</p>
+          <a
+            class="botao-comprar"
+            href="https://wa.me/5599999999999?text=Olá%2C%20tenho%20interesse%20no%20Samsung%20Galaxy%20A54"
+            target="_blank"
+            >Comprar</a
+          >
+        </div>
+        <div class="produto">
+          <img src="imagem/iphone13.webp" alt="iPhone 13" />
+          <h3>iPhone 13 128GB</h3>
+          <p>R$ 5.499,00</p>
+          <a
+            class="botao-comprar"
+            href="https://wa.me/5521981585149?text=Olá%2C%20tenho%20interesse%20no%20iPhone%2013%20128GB"
+            target="_blank"
+            >Comprar</a
+          >
+        </div>
+      </div>
+    </section>
+
+    <section class="mapa" id="contato">
+      <h2>Nosso Endereço</h2>
+      <p>
+        Avenida Rio Branco, 156, Edifício Avenida, CEN 306, Stand 06, Centro
+      </p>
+      <iframe
+        src="https://www.google.com/maps?q=Avenida+Rio+Branco,+156+Centro&output=embed"
+        allowfullscreen=""
+      >
+      </iframe>
+    </section>
+
+    <script src="js/script.js"></script>
+  </body>
+</html>
