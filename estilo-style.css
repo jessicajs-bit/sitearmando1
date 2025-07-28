@@ -46,7 +46,7 @@ header {
   font-size: 1.5rem;
   background: none;
   border: none;
-  color: rgb(236, 223, 223);
+  color: white;
   cursor: pointer;
   display: none;
 }
@@ -87,7 +87,7 @@ header {
 }
 
 .nav-menu a {
-  color: white;
+  color: rgb(207, 24, 24);
   text-decoration: none;
   font-weight: bold;
 }
