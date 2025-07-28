@@ -1,3 +1,13 @@
+@media (max-width: 768px) {
+  .slider {
+    height: 180px;
+  }
+
+  .slides img {
+    height: 180px;
+  }
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -121,19 +131,16 @@ header {
   .nav-menu.active {
     display: flex;
   }
-}
-
 .slider {
   width: 100%;
+  height: 250px;
   overflow: hidden;
   position: relative;
-  margin-bottom: 2rem;
-  height: 250px;
 }
 
 .slides {
   display: flex;
-  width: 400%;
+  width: 400%; /* 4 imagens = 400% */
   animation: slide 20s infinite;
 }
 
@@ -141,7 +148,9 @@ header {
   width: 100%;
   height: 250px;
   object-fit: cover;
+  display: block;
 }
+
 
 @keyframes slide {
   0% {
